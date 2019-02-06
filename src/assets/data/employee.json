@@ -1,0 +1,7 @@
+[
+    {"id":1 , "name": "Naqash", "surname": "Ahmad", "dept":"SC&SE","degree":"Software Engineering", "age": 24},
+    {"id":2 , "name": "Wajid","surname": "Ali", "dept":"SC&SE","degree":"Computer Science", "age": 24},
+    {"id":3 , "name": "Aaqil","surname": "Nizamani", "dept":"SC&SE","degree":"Software Engineering", "age": 24},
+    {"id":4 , "name": "Ibrahim","surname": "Nizamani", "dept":"SC&SE","degree":"Economics", "age": 24},
+    {"id":5 , "name": "Muhammad","Idrees": "Ahmad", "dept":"SC&SE","degree":"Mathematics", "age": 24}
+  ]
