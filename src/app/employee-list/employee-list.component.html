@@ -1,4 +1,23 @@
-<h2>Employees List</h2>
-<ul *ngFor="let employee of employees">
-  <li>{{employee.name}}</li>
-</ul>
+<h2>Employees-List Component</h2>
+<div class="table-responsive">
+<table class="table table-condensed">
+  <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Department</th>
+    <th>Degree</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+    <tr class="info" *ngFor="let employee of employees">
+      <td class="">{{employee.id}}</td>
+      <td class="">{{employee.name}}</td>
+      <td class="">{{employee.surname}}</td>
+      <td class="">{{employee.dept}}</td>
+      <td class="">{{employee.degree}}</td>
+      <td class="">{{employee.age}}</td>
+  </tr>
+</tbody>
+</table>
+</div>

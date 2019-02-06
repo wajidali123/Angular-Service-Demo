@@ -2,21 +2,19 @@
 <div class="table-responsive">
 <table class="table table-condensed">
   <thead>
-    <th>ID</th>
     <th>Name</th>
-    <th>Age</th>
-    <th>Surname</th>
-    <th>Department</th>
-    <th>Degree</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Subject</th>
+    <th>Message</th>
   </thead>
   <tbody>
     <tr class="info" *ngFor="let employee of employees">
-      <td class="">{{employee.id}}</td>
-      <td class="">{{employee.name}}</td>
-      <td class="">{{employee.age}}</td>
-      <td class="">{{employee.surname}}</td>
-      <td class="">{{employee.dept}}</td>
-      <td class="">{{employee.degree}}</td>
+      <td class="">{{employee.contact_name}}</td>
+      <td class="">{{employee.contact_email}}</td>
+      <td class="">{{employee.contact_phone}}</td>
+      <td class="">{{employee.contact_subject}}</td>
+      <td class="">{{employee.contact_message}}</td>
   </tr>
 </tbody>
 </table>
